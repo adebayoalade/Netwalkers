@@ -96,6 +96,7 @@ img {
 main {
     display: grid;
     grid-template-columns: 15% 85%;
+    gap: 10px;
     margin-top: 10px;
 }
 .section1 {
@@ -103,6 +104,8 @@ main {
     flex-direction: column;
     gap: 1rem;
     height: 80vh;
+    border-right: 2px solid #f4f5f6;
+    border-top: 2px solid #f4f5f6;
 }
 .icons {
     display: flex;
