@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --roboto:"Roboto", sans-serif;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    text-decoration: none;
+    border: none;
+    list-style: none;
+}
+
+body {
+    padding: 2rem 4rem;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    text-decoration: none;
+    border: none;
+}
+.design {
+    height: 100px;
+    border-bottom: 3px solid #f4f5f6;
+}
+.logo {
+    width: 296px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+img {
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+.image_logo {
+    width: 40px;
+    height: 40px;
+    background-color: #9c3030;
+    padding: 4px;
+    overflow: hidden;
+}
+.logo_label {
+    border: 3px solid #9c3030;
+    height: 40px;
+    width: 200px;
+    padding: 4px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo_text {
+    font-size: 40px;
+    color: #9c3030;
+}
+.label {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.lab_name {
+    font-size: 36px;
+    font-weight: 700;
+    color: #5b5b5b;
+    font-family: var(--roboto);
+}
+.profile_picture {
+    width: 50px;
+    height: 50px;
+}
+.notification {
+    font-size: 30px;
+}
+.menu {
+    font-size: 40px;
+}
+.profile_name {
+    display: flex;
+    align-items: center;
+    font-family: var(--roboto);
+    gap: 12px;
+}
+/* utility_class */
+.nav_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    margin-top: 10px;
+}
+.section1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 80vh;
+}
+.icons {
+    display: flex;
+    align-items: center;
+}
+.first {
+    margin-top: 20px;
+}
+.icon-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex: 1;
+}
+.icon_name {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons i {
+    font-size: 1.5rem;
+    color: #5b5b5b;
+}
+h3 {
+    font-family: var(--roboto);
+    color: #5b5b5b;
+}
+.arrow-icon {
+    margin-left: 1rem;
+    color: #5b5b5b;
+}
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    height: 80vh;
+    padding: 10px;
+    border-left: 2px solid #f4f5f6;
+    border-top: 2px solid #f4f5f6;
+}
+.home_link {
+    display: flex;
+    gap: 10px;
+}
+.home_align {
+    display: flex;
+    justify-content: center;
+}
+.name_page {
+    font-family: var(--roboto);
+    color: #5b5b5b;
+    font-weight: 700;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 60px;
+    border: 2px solid #f4f5f6;
+    box-shadow: 2px 2px 7px 4px rgba(0, 0, 0, 0.1), 10px 10px 20px rgba(0, 0, 0, 0.15);
+    font-family: var(--roboto);
+}
+.footer_list {
+    display: flex;
+}
+.footer_text {
+    font-size: 19px;
+    color: #5b5b5b;
+    
+}
+.pad {
+    border-left: 1px solid #5b5b5b;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.about {
+    padding-right: 10px;
+}
