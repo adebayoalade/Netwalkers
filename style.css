@@ -93,7 +93,8 @@ img {
     font-size: 10px;
 }
 .menu {
-    font-size: 40px;
+    font-size: 35px;
+    color: #5b5b5b;
 }
 .profile_name {
     display: flex;
